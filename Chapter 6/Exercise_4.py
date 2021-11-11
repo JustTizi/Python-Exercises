@@ -23,10 +23,10 @@ print("You threw", generated_numbers)
 print("Your unique rolls were:", filter(generated_numbers))
 
 #ex c poker
-poker_rolls = generate_list(5, 1, 6)
+poker_rolls = []
 counter = 1
 while len(filter(poker_rolls)) != 1:
+    poker_rolls = generate_list(10, 1, 20)
     print("You threw:", poker_rolls, sep="\t")
-    poker_rolls = generate_list(5, 1, 6)
     counter += 1
 print("You threw poker after", counter, "times.")
