@@ -7,5 +7,7 @@ def main():
             counter += 1
             if counter % 10 == 0:
                 print()
+
+                
 if __name__ == '__main__':
     main()
