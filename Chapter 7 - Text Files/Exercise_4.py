@@ -1,6 +1,3 @@
-from os import linesep
-
-
 def main():
     with open("Python Essentials 1\Python-Exercises\Chapter 7 - Text Files\FilesChapter7\irish_song.txt") as file:
         phrase = file.readline().rstrip()
@@ -11,8 +8,6 @@ def main():
             phrase = file.readline().rstrip()
     print(f"The shortest line has {len(shortest_phrase)} characters")
     print(shortest_phrase)
-
-        
 
 
 if __name__ == '__main__':
