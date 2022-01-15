@@ -1,5 +1,5 @@
 def main():
-    with open("Python Essentials 1\Python-Exercises\Chapter 7 - Text Files\FilesChapter7\irish_song.txt") as file:
+    with open("Python-Exercises\Chapter 7 - Text Files\FilesChapter7\irish_song.txt") as file:
         phrase = file.readline().rstrip()
         shortest_phrase = phrase.rstrip()
         while phrase:
