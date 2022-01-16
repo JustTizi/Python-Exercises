@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <drugs>
    <leaflet code="A1551">
-   	  <name>Ibuprofen EG</name>
+   	<name>Ibuprofen EG</name>
       <pharmaceutical_forms>
          <form>tablet 400 mg</form>
          <form>tablet 600 mg</form>
