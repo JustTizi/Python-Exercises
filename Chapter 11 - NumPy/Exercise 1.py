@@ -6,11 +6,17 @@ def main():
 	max_grades = np.max(grades, axis=0)
 	mean_grades = np.mean(grades, axis=0)
 	print("Grades analysis Python:")
-	print(f"{max_grades[0]}\tmin {min_grades[0]}\tmean {mean_grades[0]}")
+	print(f"{max_grades[0]}\t \
+		min {min_grades[0]}\t \
+		mean {mean_grades[0]}")
 	print("Grades analysis Linux:")
-	print(f"{max_grades[1]}\tmin {min_grades[1]}\tmean {mean_grades[1]}")
+	print(f"{max_grades[1]}\t \
+		min {min_grades[1]}\t \
+		mean {mean_grades[1]}")
 	print("Grades analysis Routing & Switching:")
-	print(f"{max_grades[2]}\tmin {min_grades[2]}\tmean {mean_grades[2]}")
+	print(f"{max_grades[2]}\t \
+		min {min_grades[2]}\t \
+		mean {mean_grades[2]}")
 
 if __name__ == '__main__':
 	main()
